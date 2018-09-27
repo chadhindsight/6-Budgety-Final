@@ -1,10 +1,3 @@
-/*
-This is more advanced stuff, and I want you to first get 100% familiar with what I showed you before. Code a couple of projects, maybe some bigger ones, whithout using object oriented JS, so that you will find the limitaions that it has when the code grows bigger and bigger.
-
-*/
-
-
-/////////////////////////////////////////////////////////////////////
 // Function constructor for an expense. We choose to create objects like this because we will have multiple expenses, so we will create many objects. We put methods in its prototype so all objects created through this constructor will inherit these methods, instead of having the methods attached to each individual object. We will read and mutate all its properties using methods, to further encapsulate the data
 function Expense(id, description, value, paymentStatus) {
     this.id = id; // For deleting items
