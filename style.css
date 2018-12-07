@@ -273,7 +273,7 @@ h2 {
 .item:hover .item__value { transform: translateX(-20px); }
 .item:hover .item__percentage { transform: translateX(-20px); }
 
-/*  Style for unpaid section*/
+/*  Style for unpaid section. Knife!*/
 .unpaid {
     background-color: #FFDAD9 !important;
     cursor: pointer;
